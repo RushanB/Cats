@@ -26,7 +26,7 @@
                                   NSDictionary *results = [NSJSONSerialization JSONObjectWithData:data options:0 error:&err];
                                   if (err != nil) { abort(); }
                                   // do something with results to get an array of photos
-                                  NSLog(@"results");
+                                  NSLog(@"Search Results Found!");
                                   NSMutableArray *photosFound = [@[] mutableCopy];
                                   for (NSDictionary *info in results[@"photos"][@"photo"]) {
                                       [photosFound addObject:[[Photo alloc] initWithInfo:info]];

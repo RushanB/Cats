@@ -26,8 +26,8 @@
     
      self.allPhotos = [NSArray array];
     
-    [FlickerAPI searchFor:@"dog" complete:^(NSArray *searchResults) {
-        NSLog(@"found %@", searchResults);
+    [FlickerAPI searchFor:@"Cats" complete:^(NSArray *searchResults) {
+        NSLog(@"Found %@", searchResults);
         
         self.allPhotos = searchResults;
         
