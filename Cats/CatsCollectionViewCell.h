@@ -10,4 +10,6 @@
 
 @interface CatsCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *catsImage;
+
 @end

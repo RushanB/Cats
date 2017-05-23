@@ -16,6 +16,8 @@
 		314B51F81ED38716003CA752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314B51F61ED38716003CA752 /* LaunchScreen.storyboard */; };
 		314B52011ED389E1003CA752 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B52001ED389E1003CA752 /* Photo.m */; };
 		314B52041ED38A35003CA752 /* CatsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B52031ED38A35003CA752 /* CatsCollectionViewCell.m */; };
+		31CD538E1ED3A6EF00199B05 /* FlickerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD538D1ED3A6EF00199B05 /* FlickerAPI.m */; };
+		31CD53951ED3B25B00199B05 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD53941ED3B25B00199B05 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,11 @@
 		314B52001ED389E1003CA752 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		314B52021ED38A35003CA752 /* CatsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatsCollectionViewCell.h; sourceTree = "<group>"; };
 		314B52031ED38A35003CA752 /* CatsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatsCollectionViewCell.m; sourceTree = "<group>"; };
+		31CD538C1ED3A6EF00199B05 /* FlickerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickerAPI.h; sourceTree = "<group>"; };
+		31CD538D1ED3A6EF00199B05 /* FlickerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickerAPI.m; sourceTree = "<group>"; };
+		31CD53921ED3A8A900199B05 /* apiKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = apiKeys.h; sourceTree = "<group>"; };
+		31CD53931ED3B25B00199B05 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		31CD53941ED3B25B00199B05 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +79,11 @@
 				314B52001ED389E1003CA752 /* Photo.m */,
 				314B52021ED38A35003CA752 /* CatsCollectionViewCell.h */,
 				314B52031ED38A35003CA752 /* CatsCollectionViewCell.m */,
+				31CD538C1ED3A6EF00199B05 /* FlickerAPI.h */,
+				31CD538D1ED3A6EF00199B05 /* FlickerAPI.m */,
+				31CD53931ED3B25B00199B05 /* DetailViewController.h */,
+				31CD53941ED3B25B00199B05 /* DetailViewController.m */,
+				31CD53921ED3A8A900199B05 /* apiKeys.h */,
 				314B51EB1ED38716003CA752 /* ViewController.h */,
 				314B51EC1ED38716003CA752 /* ViewController.m */,
 				314B51EE1ED38716003CA752 /* Main.storyboard */,
@@ -165,6 +177,8 @@
 			files = (
 				314B51F31ED38716003CA752 /* Cats.xcdatamodeld in Sources */,
 				314B51ED1ED38716003CA752 /* ViewController.m in Sources */,
+				31CD538E1ED3A6EF00199B05 /* FlickerAPI.m in Sources */,
+				31CD53951ED3B25B00199B05 /* DetailViewController.m in Sources */,
 				314B51EA1ED38716003CA752 /* AppDelegate.m in Sources */,
 				314B52011ED389E1003CA752 /* Photo.m in Sources */,
 				314B51E71ED38716003CA752 /* main.m in Sources */,
@@ -325,6 +339,7 @@
 				314B51FE1ED38716003CA752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

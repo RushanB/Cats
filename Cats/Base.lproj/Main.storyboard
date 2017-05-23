@@ -38,7 +38,21 @@
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="157" height="142"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HGj-2w-nOD">
+                                                    <rect key="frame" x="0.0" y="0.0" width="157" height="142"/>
+                                                </imageView>
+                                            </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="HGj-2w-nOD" firstAttribute="top" secondItem="tIt-qJ-lWn" secondAttribute="top" id="FWL-wA-xxg"/>
+                                            <constraint firstAttribute="bottom" secondItem="HGj-2w-nOD" secondAttribute="bottom" id="PzT-Jl-R5W"/>
+                                            <constraint firstItem="HGj-2w-nOD" firstAttribute="leading" secondItem="tIt-qJ-lWn" secondAttribute="leading" id="VfZ-Pi-jyv"/>
+                                            <constraint firstAttribute="trailing" secondItem="HGj-2w-nOD" secondAttribute="trailing" id="oVe-Mk-Fni"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="catsImage" destination="HGj-2w-nOD" id="VQ3-np-KaK"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>

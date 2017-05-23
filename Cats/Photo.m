@@ -38,9 +38,7 @@
 }
 
 -(NSURL *)url{
-    return [NSURL URLWithString:
-            [NSString stringWithFormat:@"https://farm%@.staticflickr.com/%@/%@_%@.jpg",
-             self.photoFarm, self.photoServer, self.photoID, self.photoSecret]];
+    return [NSURL URLWithString:[NSString stringWithFormat:@"https://farm%@.staticflickr.com/%@/%@_%@.jpg",self.photoFarm, self.photoServer, self.photoID, self.photoSecret]];
 }
 
 

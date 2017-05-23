@@ -19,7 +19,7 @@
 
 -(instancetype)initWithInfo:(NSDictionary *)info;
 
---(NSURL *)url;
+-(NSURL *)url;
 
 
 @end
